@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f2df0b42ae.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>JS task24</title>
+    <style>
+        .backtohome a{
+            font-size: 20px;
+            padding: 20px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        .backtohome a::before{
+            content: ' \f060';
+            font-family: "fontawesome";
+            margin-right: 5px;
+            font-size: 20px;
+        }
+        [class*="task"]{
+            border: 2px solid;
+            padding: 40px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="bg-success text-white text-center p-4">Password hide and Show Task</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 mb-3">
+                <div class="backtohome">
+                    <a href="index.html">Back</a>
+                </div>
+                <div class="task" id="sort">
+                    <h1>Task 23 - Password Hide and Show</h1>
+                </div>
+            </div>
+        </div>
+     </div>
+    <div class="container mt-5">
+        <div class="row">
+            
+            <div class="col-md-6">
+                <div class="card bg-primary text-white">
+                    <div class="card-body">
+                        <h1 class="p-3">Sign In</h1>
+                        <div class="form-group">
+                            <label for="">Username</label>
+                            <input type="text" class="form-control" placeholder="Enter Username" required>
+                        </div>
+                        <div class="form-group icon">
+                            <label for="">Password*</label>
+                            <input type="Password" class="form-control" placeholder="Enter Password" id="inputcontrol" required>
+                            <i class="fa-solid fa-eye" id="changetype"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <script src="./assets/js/app24.js"></script>
+</body>
+</html>

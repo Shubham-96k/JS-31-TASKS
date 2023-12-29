@@ -1,0 +1,14 @@
+body{
+    background-color:antiquewhite;
+}
+
+.icon{
+    position: relative;
+}
+
+.icon i {
+    position: absolute;
+    top: 44px;
+    right: 10px;
+    color: #000;
+}
